@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabura Faheema | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/s.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-s"></i>
+                    <div class="logo-text">Sabura Faheema</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>Sabura Faheema</h1>
+                    <h2>Contact me</h2>
+                    <h3>faheema0315@gmail.com</h3><br>
+                    <div class="contact-img">
+                        <a href="https://in.linkedin.com/in/sabura-faheema-83a0ab226?trk=people_directory"><img src="assets/li.jpg" class="contactimg"></a>
+                        <a href="https://github.com/faheema15"><img src="assets/gi.jfif" class="contactimg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav,classList.toggle("open");
+        })
+
+        var typed = new Typed(".input", {strings:["Frontend Developer", "UI/UX Designer", "Web developer"], typedSpeed: 70, backSpeed: 55, loop:true})
+    </script>
+</body>
+</html>
