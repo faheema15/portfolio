@@ -150,11 +150,11 @@ export const projectsData = [
   },
   {
     id: 8,
-    title: 'LaraBakes - Cake Business Website',
-    description: 'Beautiful cake business website with custom order management, gallery showcase, and customer booking system for a local bakery.',
-    longDescription: 'Created a stunning website for LaraBakes, a local cake business specializing in custom cakes. The site features an elegant gallery to showcase cake designs, custom order management system, customer booking functionality, and integration with social media presence. Designed to help grow the business online presence.',
+    title: 'Decadence Delight - Cake Business Website',
+    description: 'Beautiful cake business website with gallery showcase, and customer booking system for a local home based bakery.',
+    longDescription: 'Created a stunning website for Decadence Delight, a local cake business specializing in custom cakes. The site features an elegant gallery to showcase cake designs, custom order management system, customer booking functionality, and integration with social media presence. Designed to help grow the business online presence.',
     image: 'https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap', 'jQuery'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     features: [
       'Elegant cake gallery showcase',
       'Custom order management system',
@@ -163,8 +163,8 @@ export const projectsData = [
       'Instagram integration for social proof',
       'Contact and inquiry forms'
     ],
-    github: 'https://github.com/faheema15/larabakes',
-    live: 'https://larabakes-demo.vercel.app',
+    github: 'hhttps://github.com/faheema15/decadence-delight',
+    live: 'https://decadence-delight.netlify.app/',
     category: 'Frontend',
     status: 'Completed',
     year: '2023'

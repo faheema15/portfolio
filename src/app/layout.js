@@ -4,7 +4,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Sabura Faheema - AI + Full Stack Developer',
+  title: 'Sabura Faheema',
   description: 'AI + Full Stack Developer specializing in modern web applications, machine learning, and cloud technologies. Building scalable solutions with React, Next.js, Python, and AI.',
   keywords: 'AI Developer, Full Stack Developer, React, Next.js, Python, Machine Learning, Web Development',
   authors: [{ name: 'Sabura Faheema' }],
